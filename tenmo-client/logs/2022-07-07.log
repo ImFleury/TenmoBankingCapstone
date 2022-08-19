@@ -1,0 +1,12 @@
+2022-07-07T10:15:14.210778 400 : [{"timestamp":"2022-07-07T14:15:14.140+00:00","status":400,"error":"Bad Request","message":"User registration failed.","path":"/register"}]
+2022-07-07T15:17:57.983745 I/O error on POST request for "http://localhost:8080/register": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2022-07-07T15:18:26.4902663 I/O error on POST request for "http://localhost:8080/register": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2022-07-07T16:36:19.0259159 400 : [{"timestamp":"2022-07-07T20:36:18.993+00:00","status":400,"error":"Bad Request","message":"Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: \"user1003\"","path":"/accounts/user1003"}]
+2022-07-07T16:37:21.0013368 400 : [{"timestamp":"2022-07-07T20:37:20.985+00:00","status":400,"error":"Bad Request","message":"Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: \"user1003\"","path":"/accounts/user1003"}]
+2022-07-07T16:38:26.4405246 400 : [{"timestamp":"2022-07-07T20:38:26.424+00:00","status":400,"error":"Bad Request","message":"Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: \"user1003\"","path":"/accounts/user1003"}]
+2022-07-07T20:41:32.8213156 405 : [{"timestamp":"2022-07-08T00:41:32.805+00:00","status":405,"error":"Method Not Allowed","message":"Request method 'PUT' not supported","path":"/accounts/2002/transactions"}]
+2022-07-07T21:32:48.8097518 404 : [{"timestamp":"2022-07-08T01:32:48.792+00:00","status":404,"error":"Not Found","message":"No message available","path":"/accounts/2002/transactions"}]
+2022-07-07T21:37:45.9590384 404 : [{"timestamp":"2022-07-08T01:37:45.938+00:00","status":404,"error":"Not Found","message":"No message available","path":"/accounts/2002/transactions"}]
+2022-07-07T21:45:35.0491115 401 : [no body]
+2022-07-07T21:45:44.6497542 404 : [{"timestamp":"2022-07-08T01:45:44.649+00:00","status":404,"error":"Not Found","message":"No message available","path":"/accounts/2002/transactions"}]
+2022-07-07T21:47:41.8271675 405 : [{"timestamp":"2022-07-08T01:47:41.794+00:00","status":405,"error":"Method Not Allowed","message":"Request method 'PUT' not supported","path":"/accounts/2002/transfers"}]
